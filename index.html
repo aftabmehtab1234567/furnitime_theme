@@ -133,14 +133,14 @@
            
            </div>
            <p class="text-start" id="mydiv">Choose from over 500 products<br> and 22 styles in one of the world’s <br>largest online warehouses</p>
-           <div class="p-3 fs-4 text-start">Click<span class="tg2"><image src="image/Vector3.png" onclick=" myFunction()"></image></span>
+           <div class="p-3 fs-4 text-start">Click<span class="tg2"><image src="image/Vector3.png" onclick=" myFunction1()"></image></span>
            
            </div>
-           <p class="text-start" id="mydiv">Choose from over 500 products<br> and 22 styles in one of the world’s <br>largest online warehouses</p>
-           <div class="p-3 fs-4 text-start">Click<span class="tg2 "><image src="image/Vector3.png" onclick=" myFunction()"></image></span>
+           <p class="text-start" id="mydiv1">Choose from over 500 products<br> and 22 styles in one of the world’s <br>largest online warehouses</p>
+           <div class="p-3 fs-4 text-start">Click<span class="tg2 "><image src="image/Vector3.png" onclick=" myFunction3()"></image></span>
            
            </div>
-           <p class="text-start" id="mydiv">Choose from over 500 products<br> and 22 styles in one of the world’s <br>largest online warehouses</p>
+           <p class="text-start" id="mydiv3">Choose from over 500 products<br> and 22 styles in one of the world’s <br>largest online warehouses</p>
           </div>
           <!--container for image-->
           <div class="col-md-6 col-sm-12 col-xs-12 col-lg-6">
@@ -213,6 +213,22 @@
 <script>
   function myFunction() {
     var x = document.getElementById("mydiv");
+    if (x.style.display === "none") {
+      x.style.display = "block";
+    } else {
+      x.style.display = "none";
+    }
+  }
+  function myFunction1() {
+    var x = document.getElementById("mydiv1");
+    if (x.style.display === "none") {
+      x.style.display = "block";
+    } else {
+      x.style.display = "none";
+    }
+  }
+  function myFunction3() {
+    var x = document.getElementById("mydiv3");
     if (x.style.display === "none") {
       x.style.display = "block";
     } else {
