@@ -1,0 +1,104 @@
+/*css for blog word*/
+.blo {
+    margin-left: 80%;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+}
+/*navbar container css */
+.fluid {
+    background-color: white;
+}
+/*css for for navbar text*/
+.navbar {
+    font-family: 'Satoshi';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    text-decoration: none;
+    color: black;
+}
+/*css for change color of text*/
+.iti {
+    color: #FFAA47;
+}
+/*background image css*/
+.background {
+    background-image: url("../image/hero-image.png");
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    background-size: 100% 100%;
+}
+/*first heading on background image*/
+.head {
+   
+    font-family: 'Satoshi';
+    font-style: normal;
+    font-weight: 900;
+    padding-top: 9%;
+}
+
+.tg{
+    margin-left:11px;
+}
+/*css for paragraph befor logo tag*/
+.tg1{
+    margin-top:90px;
+}
+/*tick image css*/
+.igm{
+    
+    margin-right: 24%;
+}
+
+
+/*css for it Too Easy*/
+.tooeasy{
+    font-family: 'Satoshi';
+    font-style: normal;
+    font-weight: 900;
+}
+/*css for browser*/
+.brow{
+    font-family: 'Satoshi';
+    font-style: normal;
+    font-weight: 500;
+    color: #FFAA47;
+    margin-top:10px;
+}
+/*css for vector image+*/
+.tg2{
+    margin-left:80%;
+}
+/*text for new section*/
+.too{
+    font-family: 'Satoshi';
+    font-style: normal;
+    font-weight: 900;
+    margin-top:36%;
+}
+/*css for footer text*/
+.lt{
+    font-family: 'Satoshi';
+    font-style: normal;
+    font-weight: 500;
+    margin-top:3%;
+    color:white;
+}
+/*css for footer text*/
+.lt1{
+    font-family: 'Satoshi';
+    font-style: normal;
+    font-weight: 500;
+    color:white;
+}
+/*css for icon footer*/
+.mat{
+    color:white;
+    font-size:50px;
+}
+.tlk{
+    margin-left:-45%;
+}
+
